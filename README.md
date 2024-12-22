@@ -32,8 +32,8 @@ Make sure you have **Node.js** and **Angular CLI** installed on your system.
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/catbook.git
-cd catbook
+git clone https://github.com/Theresa-1703/Angular_Project.git
+cd Angular_Project
 Install dependencies
 Install all the required dependencies by running:
 
