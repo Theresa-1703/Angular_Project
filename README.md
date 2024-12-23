@@ -1,27 +1,59 @@
-# AngularTest
+# CatBook
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.7.
+CatBook is a fun, customizable Angular application created as part of an Angular tutorial. The project is a modified version of the "HamsterBook" tutorial, with customizations in the design elements, such as colors, names, images, and layout, while focusing on learning the core concepts of Angular.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Customizable design elements (colors, names, images)
+- Simple, responsive user interface
+- SCSS used for styling components
+- Basic use of Angular components, directives, and bindings
+- Flexbox layout for responsive design
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular 18.2.7**: The framework used to build this application.
+- **TypeScript**: For writing the logic of the app.
+- **SCSS**: Used for styling, including layout adjustments and theming.
+- **HTML**: Markup for structuring the components.
+- **Flexbox**: Used for creating a responsive layout.
 
-## Build
+## Setup
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To get the project running on your local machine, follow these steps:
 
-## Running unit tests
+### Prerequisites
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Make sure you have **Node.js** and **Angular CLI** installed on your system.
 
-## Running end-to-end tests
+- [Download Node.js](https://nodejs.org/)
+- [Install Angular CLI](https://angular.io/cli)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Clone the repository
 
-## Further help
+```bash
+git clone https://github.com/Theresa-1703/Angular_Project.git
+cd Angular_Project
+Install dependencies
+Install all the required dependencies by running:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+bash
+Code kopieren
+npm install
+Run the development server
+Run the application with the following command:
+
+bash
+Code kopieren
+ng serve
+Now, open your browser and navigate to http://localhost:4200 to view the app.
+
+Project Structure
+src/app: Contains the main Angular application code.
+src/assets: Stores all assets, including images used in the app.
+src/styles.scss: The main stylesheet for the project.
+angular.json: Angular configuration file.
+Acknowledgements
+This project is a modified version of "HamsterBook," an Angular tutorial project. The modifications were made to personalize the application with custom names, colors, images, and designs. This project helped me practice core Angular concepts, SCSS styling, and layout management.
+
+For more information about Angular, visit the Angular website.
