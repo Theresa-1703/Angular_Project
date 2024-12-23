@@ -1,2 +1,8 @@
 <app-header></app-header>
-<div class="card-container"><app-cat-card></app-cat-card></div>
+<div class="card-container">
+  <app-cat-card
+    *ngFor="let i of [0, 1, 2, 3, 4]"
+    [img]="postImages[i]"
+    [name]="postName[i]"
+  ></app-cat-card>
+</div>
