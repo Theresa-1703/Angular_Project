@@ -2,6 +2,10 @@
 
 CatBook is a fun, customizable Angular application created as part of an Angular tutorial. The project is a modified version of the "HamsterBook" tutorial, with customizations in the design elements, such as colors, names, images, and layout, while focusing on learning the core concepts of Angular.
 
+![screenshot](https://github.com/user-attachments/assets/08b7f356-35a6-47d4-9d2c-f6b27452c1f3)
+
+
+
 ## Features
 
 - Customizable design elements (colors, names, images)
